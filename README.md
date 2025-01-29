@@ -12,38 +12,39 @@ The models are trained on the **ASL Alphabet Dataset** from **Kaggle**:
 
 ---
 
-## 📂 Project Structure
+📦 Project Name
+├── 📂 Final_Codes/                  # Final scripts for running the models
+│   ├── 📜 baseline_do_not_touch.py      # Baseline model execution
+│   ├── 📜 skeletal_do_not_touch.py      # Skeletal model execution
+│   ├── 📜 multi_modal_do_not_touch.py   # Multi-modal model execution
+│   ├── 📜 final3_combined.py            # Final integrated model
+│
+├── 📂 keypoints_csv_files/          # Extracted skeletal data
+│   ├── 📜 skeletal_keypoints.csv         # CSV with extracted keypoints
+│
+├── 📂 model_files/                  # Training scripts for each model
+│   ├── 📂 Baseline/                      # Baseline model training
+│   │   ├── 📜 preprocess_asl.py            # Data augmentation & preprocessing
+│   │   ├── 📜 splitting.py                  # Dataset splitting
+│   │   ├── 📜 model_training.py             # CNN Model training
+│   │
+│   ├── 📂 Multi_Modal/                  # Multi-modal model training
+│   │   ├── 📜 multi_modal_preprocessing.py  # Feature extraction
+│   │   ├── 📜 multi_modal_training.py       # Multi-modal model training
+│   │
+│   ├── 📂 Skeletal/                      # Skeletal model training
+│       ├── 📜 skeletal_extraction.py        # Extracts skeletal keypoints
+│       ├── 📜 skeletal_training.py          # Skeletal model training
+│
+├── 📂 Models/                        # Trained models
+│   ├── 📜 baseline_model.h5                # CNN model
+│   ├── 📜 multimodal_model_large_non_augmented.h5  # Multi-modal model
+│   ├── 📜 skeletal_model_large_non_augmented.h5    # Skeletal model
+│
+├── 📂 asl_dataset/                   # ASL dataset (from Kaggle)
+│
+└── 📜 README.md                      # Project description
 
-📁 Final Codes/ # Final scripts for running the models
-├── 📄 baseline do not touch.py # Baseline model execution
-├── 📄 skaletal do not touch.py # Skeletal model execution
-├── 📄 multi modal do not touch.py # Multi-modal model execution
-├── 📄 final3_combined.py # Final integrated model
-
-📁 keypoints_csv files/ # Extracted skeletal data
-├── 📄 skeletal_keypoints.csv # CSV with extracted keypoints
-
-📁 model files/ # Training scripts for each model
-├── 📁 Baseline/
-│ ├── 📄 preprocess_asl.py # Data augmentation & preprocessing
-│ ├── 📄 splitting.py # Dataset splitting
-│ ├── 📄 model training.py # CNN Model training
-
-├── 📁 Multi Modal/
-│ ├── 📄 multi_modal_preprocessing.py # Feature extraction
-│ ├── 📄 multi_modal_training.py # Multi-modal model training
-
-├── 📁 Skeletal/
-│ ├── 📄 skeletal_extraction.py # Extracts skeletal keypoints
-│ ├── 📄 skeletal_training.py # Skeletal model training
-
-📁 Models/ # Trained models
-├── 📄 baseline_model.h5 # CNN model
-├── 📄 multimodal_model_large_non_augmented.h5 # Multi-modal model
-├── 📄 skeletal_model_large_non_augmented.h5 # Skeletal model
-
-📁 asl_dataset/ # ASL dataset (from Kaggle)
----
 
 ## 📦 Installation
 
