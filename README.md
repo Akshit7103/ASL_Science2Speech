@@ -145,7 +145,7 @@ pip install -r requirements.txt
 
 ## 📣 Author
 
-**Akshit Sharma**  
+**Akshit Mahajan**  
 🔗 GitHub: [Akshit7103](https://github.com/Akshit7103)
 
 ---
