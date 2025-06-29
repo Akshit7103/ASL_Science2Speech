@@ -46,9 +46,6 @@ ASL_Science2Speech/
 │
 └── asl_dataset.zip # Raw or augmented dataset archive
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -61,9 +58,7 @@ Make sure your webcam is connected.
 
 python "Final codes/final3_combined.py"
 🧠 Run Individually:
-bash
-Copy
-Edit
+
 # Baseline image model
 python "Final codes/baseline do not touch.py"
 
@@ -76,19 +71,13 @@ python "Final codes/multi modal do not touch.py"
 You can train your own models from scratch.
 
 🔧 1. Preprocess + Augment Dataset
-bash
-Copy
-Edit
+
 python model files/Baseline/preprocess_asl.py
 ✂️ 2. Split into Train/Val/Test
-bash
-Copy
-Edit
+
 python model files/Baseline/splitting.py
 🏋️ 3. Train Models
-bash
-Copy
-Edit
+
 # Baseline (MobileNetV2)
 python model files/Baseline/model training.py
 
@@ -102,9 +91,7 @@ python model files/multi modal/multi_modal_training.py
 🧰 Dependencies
 Install them with:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Key Libraries:
 tensorflow
@@ -137,16 +124,3 @@ Akshit Sharma
 📝 License
 This project is for educational and research purposes only.
 
-python
-Copy
-Edit
-
----
-
-Let me know if you'd like me to generate:
-
-- `requirements.txt` from your environment
-- A `setup.sh` or `.bat` script for quick setup
-- GitHub repository badges (build, license, etc.)
-
-You're all set to publish and show this off now!
