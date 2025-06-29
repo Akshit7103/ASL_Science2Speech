@@ -4,7 +4,8 @@ from tensorflow.keras.models import load_model
 import mediapipe as mp
 
 # Load the multi-modal model
-model_path = r"C:\Users\akshi\Desktop\testing\final\large\non augmented\multi modal\multimodal_model_large_non_augmented.h5"
+model_path = r"C:\Users\akshi\Desktop\Akshit\Personal Projects\STS\git\Models\multi modal\multimodal_model_large_non_augmented.h5"
+
 model = load_model(model_path)
 
 # Define the class names (ensure these match your model's output labels)

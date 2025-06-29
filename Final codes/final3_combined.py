@@ -5,8 +5,8 @@ import mediapipe as mp
 import pyttsx3
 
 # Load all models
-skeletal_model_path = r"C:\Users\akshi\Desktop\testing\final\large\non augmented\skeletal\skeletal_model_large_non_augmented.h5"
-multi_modal_model_path = r"C:\Users\akshi\Desktop\testing\final\large\non augmented\multi modal\multimodal_model_large_non_augmented.h5"
+skeletal_model_path = r"C:\Users\akshi\Desktop\Akshit\Personal Projects\STS\git\Models\skeletal\skeletal_model_large_non_augmented.h5"
+multi_modal_model_path = r"C:\Users\akshi\Desktop\Akshit\Personal Projects\STS\git\Models\multi modal\multimodal_model_large_non_augmented.h5"
 baseline_model_path = r"C:\Users\akshi\Downloads\final_model.keras"
 
 skeletal_model = load_model(skeletal_model_path)
