@@ -149,6 +149,9 @@ pip install -r requirements.txt
 **Akshit Mahajan**  
 🔗 GitHub: [Akshit7103](https://github.com/Akshit7103)
 
+**Vedant Passi**  
+🔗 GitHub: [VedantPassi](https://github.com/VedantPassi)
+
 ---
 
 ## 📝 License
